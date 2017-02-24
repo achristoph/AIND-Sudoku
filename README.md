@@ -3,11 +3,12 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: First is to discover all the 2 digit values followed by finding which of the 2 digit values are occurred twice, then store all distinct digit using a set. All occurence of these digits can then be removed from boxes from the same unit.
+
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: This can be simply solved by adding the two diagonal units to the list of units. This reduces the number of possibilities which fulfills the new diagonal constraint
 
 ### Install
 
